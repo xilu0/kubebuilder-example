@@ -1,0 +1,8 @@
+apiVersion: webapp.my.domain/v1
+kind: Guestbook
+metadata:
+  name: guestbook-sample
+spec:
+  # Add fields here
+  size: 1
+  configmapname: istio-ca-root-cert 
